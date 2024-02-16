@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- Typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Odin Landing Page</title>
 </head>
 
@@ -56,21 +62,27 @@
         </section>
 
         <section class="main-article-flex three">
-            <p>Inspirational quote or testimonial from customer. There is a tag that explicitly handles quotations such
-                as these.</p>
+            <blockquote>
+                <p>Inspirational quote or testimonial from customer. There is a tag that explicitly handles quotations
+                    such
+                    as these.</p>
+            </blockquote>
         </section>
 
-        <section class="main-article-flex">
-            <div class="cta-text">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking the button right over there!</p>
+        <section class="main-article-flex cta">
+            <div class="cta-prompt">
+                <div>
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking the button right over there!</p>
+                </div>
+                <button class="buttons buttons-footer">Sign up</button>
             </div>
-            <button class="buttons buttons-footer">Sign up</button>
+
         </section>
     </main>
 
-    <footer class="footer-flex">
-        <div>Copyright c The Breezy Project 2024</div>
+    <footer class="footer">
+        <p>Copyright c The Breezy Project 2024</p>
     </footer>
 
 </body>
