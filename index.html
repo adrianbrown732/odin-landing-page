@@ -10,45 +10,67 @@
 
 <body>
     <header class="header-flex">
-        <div class="header-flex-top">
-            <div><img src="" alt="">Header Logo</div>
-            <nav class="nav-flex">
-                <ul>
-                    <li>header link one</li>
-                    <li>header link two</li>
-                    <li>header link three</li>
-                </ul>
-            </nav>
-        </div>
-        <section class="header-flex-bottom">
-            <div class="header-bottom-left">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color
-                    is lower contrast</p>
-                <div><button>Sign up</button></div>
-                <div class="header-bottom-right">
-                    <img src="./images/computer-parts.jpg" alt="computer parts disassembled">
-                </div>
-            </div>
-        </section>
+        <h2>Header Logo</h2>
+        <nav>
+            <ul class="nav-flex">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main-flex">
-        <article class="main-article-flex one">
+        <section class="main-article-flex one">
+            <div>
+                <h1>This website is <br>awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color
+                    is lower contrast</p>
+                <div><button class="buttons">Sign up</button></div>
+            </div>
+            <div class="section-image">
+                <p>this is a placeholder image.</p>
+            </div>
+        </section>
+
+        <section class="two">
             <h2>Some random information.</h2>
-            <div class="main-box"></div>
-            <div class="main-box"></div>
-            <div class="main-box"></div>
-            <div class="main-box"></div>
-        </article>
-        <article class="main-article-flex two">
+            <div class="main-article-flex info-gallery">
+                <div class="div-box">
+                    <div class="main-box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="div-box">
+                    <div class="main-box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="div-box">
+                    <div class="main-box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="div-box">
+                    <div class="main-box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-article-flex three">
             <p>Inspirational quote or testimonial from customer. There is a tag that explicitly handles quotations such
                 as these.</p>
-        </article>
+        </section>
+
+        <section class="main-article-flex">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking the button right over there!</p>
+            </div>
+            <button class="buttons buttons-footer">Sign up</button>
+        </section>
     </main>
 
     <footer class="footer-flex">
-        <section class="call-to-action"></section>
+        <div>Copyright c The Breezy Project 2024</div>
     </footer>
 
 </body>
